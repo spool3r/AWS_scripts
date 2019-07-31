@@ -1,13 +1,16 @@
 #!/bin/bash
 
 ##############################
-# This script is designed to download all the information from the EC2 instances to have a record of the different instances we had at a given time.
-# This script is meant to be run via a cron script.
+# This script is designed to download all the information from the EC2 instances to have a record 
+# of the different instances we had at a given time.
+# This script is meant to be run via a cron script but can be run stand alone also.
 ##############################
 # Things you need to do:
 # 1. Set the script log location
 # 2. Set your environments
-# 3. Set your regions.  This could be left to attempt to download all locations.  You never know when a person might stand up a server in a region you don't normally use.
+# 3. Set your regions.  You can use the filled in list to attempt to download all locations minus China and US government.  
+#    It is helpful to download all regions as you never know when a person might stand up a server in a region
+#    you don't normally use.
 ##############################
 # This script relys on you setting up named profiles.  Please refer to the following on setting up named profiles.
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
@@ -15,7 +18,7 @@
 
 
 #Log location
-scriptlogs=""
+scriptlogs="/path/to/your/log/folder"
 
 # Example Environments
 # In this example the account numbers are setup as the named instance.
