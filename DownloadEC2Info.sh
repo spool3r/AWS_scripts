@@ -12,7 +12,8 @@
 #    It is helpful to download all regions as you never know when a person might stand up a server in a region
 #    you don't normally use.
 ##############################
-# This script relys on you setting up named profiles.  Please refer to the following on setting up named profiles.
+# This script relies on you setting up named profiles.  Please refer to the following on setting up named profiles.
+# You script also relies on the default output format being JSON.
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 ##############################
 
