@@ -18,8 +18,8 @@
 ##############################
 
 
-#Log location
-scriptlogs="/path/to/your/log/folder"
+# Log location | The path needs to end with the /
+scriptlogs="/path/to/your/log/folder/"
 
 # Example Environments
 # In this example the account numbers are setup as the named instance.
